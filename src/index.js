@@ -52,9 +52,7 @@ const TranslatableText = props => (
 );
 
 const TranslatableText2 = props => (
-
     <LanguageConsumer>
-
         {({language}) => {
             return (
                 <table border="1" width="100%" cellPadding="5">
@@ -131,6 +129,7 @@ const App = () => (
                     }}
                 />
             </h1>
+            <a href='https://github.com/6AHK0MAT/ru-en' target='_blank'>Ссылка на данный проект в GitHub</a>
         </div>
     </LanguageProvider>
 );
